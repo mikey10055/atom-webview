@@ -1,5 +1,5 @@
 {
-  "name": "webview",
+  "name": "atom-webview",
   "main": "./lib/webview",
   "version": "0.0.0",
   "description": "Simple webview",
