@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle webview",
+        "command": "webview:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "webview",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "webview:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

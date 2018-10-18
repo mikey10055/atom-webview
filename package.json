@@ -1,0 +1,18 @@
+{
+  "name": "webview",
+  "main": "./lib/webview",
+  "version": "0.0.0",
+  "description": "Simple webview",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "webview:toggle"
+  },
+  "repository": "https://github.com/mikey10055/atom-webview",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
