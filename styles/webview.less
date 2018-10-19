@@ -5,6 +5,39 @@
 @import "ui-variables";
 
 .webview {
+
+    .nextIcon {
+      &::before {
+        font-family: 'Octicons Regular';
+        font-weight: normal;
+        font-style: normal;
+        display: inline-block;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        text-decoration: none;
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+        content: "\f078";
+      }
+    }
+
+    .backIcon {
+      &::before {
+        font-family: 'Octicons Regular';
+        font-weight: normal;
+        font-style: normal;
+        display: inline-block;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        text-decoration: none;
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+        content: "\f0a4";
+      }
+    }
+
     .wv-main {
         display: flex;
         flex-direction: column;
@@ -30,6 +63,13 @@
       &:hover {
         background-color: @button-background-color-hover;
       }
+      &:disabled {
+        background: darken(@button-background-color, 5%);
+        color: @button-background-color;
+      }
+      &.backIcon, &.nextIcon {
+        border-right: 0px;
+      }
     }
 
     .wv-button {
@@ -42,5 +82,6 @@
     }
     .wv-webview {
         flex: 1;
+        background: #ffffff;
     }
 }
